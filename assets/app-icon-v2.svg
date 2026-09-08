@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="110" y1="70" x2="900" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172943"/>
+      <stop offset="0.48" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#02050B"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(498 413) rotate(90) scale(335 385)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.45" stop-color="#FFEDD2" stop-opacity="0"/>
+      <stop offset="0.57" stop-color="#FFF5DF" stop-opacity="0.92"/>
+      <stop offset="0.66" stop-color="#FFB35E" stop-opacity="0.94"/>
+      <stop offset="0.79" stop-color="#E95D2C" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#E95D2C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glassBack" x1="245" y1="458" x2="750" y2="826" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83D5FF" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#3373B8" stop-opacity="0.26"/>
+    </linearGradient>
+    <linearGradient id="glassFront" x1="388" y1="480" x2="840" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F8FF" stop-opacity="0.42"/>
+      <stop offset="0.48" stop-color="#4C87BD" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#142A48" stop-opacity="0.74"/>
+    </linearGradient>
+    <linearGradient id="red" x1="464" y1="620" x2="800" y2="804" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6A6A"/>
+      <stop offset="1" stop-color="#FF193F"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="34" stdDeviation="32" flood-color="#000611" flood-opacity="0.72"/>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="20" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="appClip"><rect x="32" y="32" width="960" height="960" rx="214"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#appClip)">
+    <rect x="32" y="32" width="960" height="960" rx="214" fill="url(#bg)"/>
+    <path d="M70 210C270 64 752 46 955 304" fill="none" stroke="#7ED8FF" stroke-opacity="0.12" stroke-width="58"/>
+    <circle cx="498" cy="413" r="382" fill="url(#halo)" filter="url(#glow)"/>
+    <ellipse cx="498" cy="413" rx="279" ry="205" fill="#010205" stroke="#FFE3B5" stroke-width="13"/>
+    <path d="M203 477C325 376 672 320 825 346C707 383 449 465 256 579" fill="none" stroke="#FFF3D9" stroke-width="26" stroke-linecap="round" opacity="0.96"/>
+    <path d="M207 503C357 421 652 368 818 366" fill="none" stroke="#FF8E47" stroke-width="55" stroke-linecap="round" opacity="0.58" filter="url(#glow)"/>
+
+    <g filter="url(#shadow)">
+      <rect x="201" y="467" width="482" height="337" rx="76" transform="rotate(-8 201 467)" fill="url(#glassBack)" stroke="#DDF5FF" stroke-opacity="0.82" stroke-width="16"/>
+      <path d="M259 584L390 511L528 589L639 533" fill="none" stroke="#C6F0FF" stroke-opacity="0.38" stroke-width="18" stroke-linecap="round"/>
+      <rect x="363" y="500" width="476" height="382" rx="82" fill="url(#glassFront)" stroke="#F3FBFF" stroke-width="18"/>
+      <path d="M399 551C501 517 681 520 800 577" fill="none" stroke="#FFFFFF" stroke-opacity="0.40" stroke-width="18" stroke-linecap="round"/>
+    </g>
+
+    <path d="M456 704L548 610L654 650L761 596L799 718L691 811L568 781L469 817Z" fill="#FF3150" fill-opacity="0.18" stroke="url(#red)" stroke-width="32" stroke-linejoin="round"/>
+    <circle cx="456" cy="704" r="20" fill="#FFFFFF" stroke="#FF3857" stroke-width="12"/>
+    <circle cx="654" cy="650" r="20" fill="#FFFFFF" stroke="#FF3857" stroke-width="12"/>
+    <circle cx="799" cy="718" r="20" fill="#FFFFFF" stroke="#FF3857" stroke-width="12"/>
+    <circle cx="568" cy="781" r="20" fill="#FFFFFF" stroke="#FF3857" stroke-width="12"/>
+  </g>
+  <rect x="38" y="38" width="948" height="948" rx="208" fill="none" stroke="#E9F8FF" stroke-opacity="0.34" stroke-width="12"/>
+</svg>

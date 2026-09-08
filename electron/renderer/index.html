@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' local-image: data: blob:; style-src 'self'; script-src 'self';">
+  <title>双时相变化检查工具</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app">
+    <section class="path-panel" aria-label="数据目录">
+      <div class="path-row">
+        <label for="before-path">A</label>
+        <input id="before-path" type="text" spellcheck="false">
+        <button data-choose="before">选择</button>
+        <button data-load>载入</button>
+      </div>
+      <div class="path-row">
+        <label for="after-path">B</label>
+        <input id="after-path" type="text" spellcheck="false">
+        <button data-choose="after">选择</button>
+        <button data-load>载入</button>
+      </div>
+      <div class="path-row">
+        <label for="mask-path">Mask</label>
+        <input id="mask-path" type="text" spellcheck="false">
+        <button data-choose="mask">选择</button>
+        <button data-load>载入</button>
+      </div>
+      <button id="path-panel-toggle" class="path-toggle" type="button" aria-expanded="false" title="展开或收起完整路径">展开</button>
+    </section>
+
+    <section id="viewer" class="viewer">
+      <canvas id="image-canvas" tabindex="0"></canvas>
+      <canvas id="annotation-canvas" aria-hidden="true"></canvas>
+      <div id="empty-state" class="empty-state">请选择 A、B 和 Mask 目录后载入</div>
+      <div id="busy-indicator" class="busy-indicator" hidden>处理中…</div>
+    </section>
+
+    <aside id="label-panel" class="label-panel" hidden aria-label="Mask 标签管理">
+      <header>
+        <span>Mask 标签管理（0–255）</span>
+        <button id="label-panel-close" class="icon-button" title="关闭">×</button>
+      </header>
+      <div id="label-list" class="label-list" role="listbox"></div>
+      <div class="label-editor">
+        <label>标签编号 <input id="label-id" type="number" min="0" max="255"></label>
+        <button id="label-jump">跳转</button>
+        <label class="wide">标签名称 <input id="label-name" type="text" maxlength="64"></label>
+        <label>标签颜色 <input id="label-color" type="color"></label>
+        <label class="wide">切换快捷键
+          <input id="label-shortcut" type="text" readonly placeholder="未设置">
+        </label>
+        <button id="capture-shortcut">录入快捷键</button>
+        <button id="clear-shortcut">清除快捷键</button>
+      </div>
+      <footer>
+        <button id="save-label">保存标签</button>
+        <button id="save-use-label" class="positive">保存并设为当前</button>
+        <button id="pin-label" class="pin">置顶标签</button>
+        <button id="close-label">关闭</button>
+      </footer>
+    </aside>
+
+    <nav class="toolbar" aria-label="功能栏">
+      <button id="mask-button" data-action="mask">Mask [S]</button>
+      <label class="mask-opacity-control" for="mask-opacity" title="调整标注区域填充透明度，红色边界保持清晰">
+        <span>填充</span>
+        <input id="mask-opacity" type="range" min="0" max="100" step="1" value="46" aria-label="Mask 填充透明度">
+        <output id="mask-opacity-value" for="mask-opacity">46%</output>
+      </label>
+      <button id="label-button" data-action="labels">标签 001 [C]</button>
+      <button id="annotate-button" data-action="annotate">彩色标注 [Q]</button>
+      <button id="erase-button" data-action="erase">删标注 [E]</button>
+      <button id="replace-color-button" data-action="replace-color">替换颜色 [W]</button>
+      <button id="sam-button" data-action="sam">AI 圈选 [F]</button>
+      <button id="prev-button" data-action="prev">←上一张 [A]</button>
+      <button id="next-button" data-action="next">下一张 [D]→</button>
+      <button id="phase-button" data-action="phase">时相 B [空格]</button>
+      <button id="blink-button" data-action="blink">闪烁 [B]</button>
+      <label class="blink-speed-control" for="blink-speed" title="调整 A、B 图像闪烁切换速度">
+        <span>闪速</span>
+        <select id="blink-speed" aria-label="闪烁速度">
+          <option value="150">极快 150ms</option>
+          <option value="250">快 250ms</option>
+          <option value="350" selected>标准 350ms</option>
+          <option value="600">慢 600ms</option>
+          <option value="1000">极慢 1000ms</option>
+        </select>
+      </label>
+      <button id="compare-button" data-action="compare">左右对比 [V]</button>
+      <button id="delete-button" class="danger" data-action="delete">删除 [Del]</button>
+      <button id="permanent-delete-button" class="danger strong" data-action="permanent-delete">彻删 [Shift+Del]</button>
+      <button id="undo-button" data-action="undo">撤销 [U/Ctrl+Z]</button>
+      <button id="reset-button" data-action="reset">重置 [R/0]</button>
+      <button id="swap-button" data-action="swap" title="互换当前同名 A、B 原始文件">互换 [X]</button>
+    </nav>
+    <div id="status-bar" class="status-bar">正在启动 Electron 版…</div>
+    <div id="toast" class="toast" hidden></div>
+  </main>
+  <script src="../core/annotation-coordinates.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

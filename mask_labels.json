@@ -1,0 +1,1291 @@
+{
+  "version": 2,
+  "label_range": [
+    0,
+    255
+  ],
+  "mask_encoding": "RGB stores selected label color",
+  "active_label_id": 0,
+  "labels": {
+    "0": {
+      "name": "房屋变化",
+      "color": "#FFFFFF",
+      "pinned": true
+    },
+    "1": {
+      "name": "标签1",
+      "color": "#690F96",
+      "pinned": false
+    },
+    "2": {
+      "name": "标签 2",
+      "color": "#4D4D7C",
+      "pinned": false
+    },
+    "3": {
+      "name": "标签 3",
+      "color": "#6A6AB8",
+      "pinned": false
+    },
+    "4": {
+      "name": "标签 4",
+      "color": "#8787F4",
+      "pinned": false
+    },
+    "5": {
+      "name": "标签 5",
+      "color": "#A4A440",
+      "pinned": false
+    },
+    "6": {
+      "name": "标签 6",
+      "color": "#C1C17C",
+      "pinned": false
+    },
+    "7": {
+      "name": "标签 7",
+      "color": "#DEDEB8",
+      "pinned": false
+    },
+    "8": {
+      "name": "标签 8",
+      "color": "#FBFBF4",
+      "pinned": false
+    },
+    "9": {
+      "name": "标签 9",
+      "color": "#304D7C",
+      "pinned": false
+    },
+    "10": {
+      "name": "标签 10",
+      "color": "#4D6AB8",
+      "pinned": false
+    },
+    "11": {
+      "name": "标签 11",
+      "color": "#6A87F4",
+      "pinned": false
+    },
+    "12": {
+      "name": "标签 12",
+      "color": "#87A440",
+      "pinned": false
+    },
+    "13": {
+      "name": "标签 13",
+      "color": "#A4C17C",
+      "pinned": false
+    },
+    "14": {
+      "name": "标签 14",
+      "color": "#C1DEB8",
+      "pinned": false
+    },
+    "15": {
+      "name": "标签 15",
+      "color": "#DEFBF4",
+      "pinned": false
+    },
+    "16": {
+      "name": "标签 16",
+      "color": "#FB307C",
+      "pinned": false
+    },
+    "17": {
+      "name": "标签 17",
+      "color": "#306AB8",
+      "pinned": false
+    },
+    "18": {
+      "name": "标签 18",
+      "color": "#4D87F4",
+      "pinned": false
+    },
+    "19": {
+      "name": "标签 19",
+      "color": "#6AA440",
+      "pinned": false
+    },
+    "20": {
+      "name": "标签 20",
+      "color": "#87C17C",
+      "pinned": false
+    },
+    "21": {
+      "name": "标签 21",
+      "color": "#A4DEB8",
+      "pinned": false
+    },
+    "22": {
+      "name": "标签 22",
+      "color": "#C1FBF4",
+      "pinned": false
+    },
+    "23": {
+      "name": "标签 23",
+      "color": "#DE307C",
+      "pinned": false
+    },
+    "24": {
+      "name": "标签 24",
+      "color": "#FB4DB8",
+      "pinned": false
+    },
+    "25": {
+      "name": "标签 25",
+      "color": "#3087F4",
+      "pinned": false
+    },
+    "26": {
+      "name": "标签 26",
+      "color": "#4DA440",
+      "pinned": false
+    },
+    "27": {
+      "name": "标签 27",
+      "color": "#6AC17C",
+      "pinned": false
+    },
+    "28": {
+      "name": "标签 28",
+      "color": "#87DEB8",
+      "pinned": false
+    },
+    "29": {
+      "name": "标签 29",
+      "color": "#A4FBF4",
+      "pinned": false
+    },
+    "30": {
+      "name": "标签 30",
+      "color": "#C1307C",
+      "pinned": false
+    },
+    "31": {
+      "name": "标签 31",
+      "color": "#DE4DB8",
+      "pinned": false
+    },
+    "32": {
+      "name": "标签 32",
+      "color": "#FB6AF4",
+      "pinned": false
+    },
+    "33": {
+      "name": "标签 33",
+      "color": "#30A440",
+      "pinned": false
+    },
+    "34": {
+      "name": "标签 34",
+      "color": "#4DC17C",
+      "pinned": false
+    },
+    "35": {
+      "name": "标签 35",
+      "color": "#6ADEB8",
+      "pinned": false
+    },
+    "36": {
+      "name": "标签 36",
+      "color": "#87FBF4",
+      "pinned": false
+    },
+    "37": {
+      "name": "标签 37",
+      "color": "#A4307C",
+      "pinned": false
+    },
+    "38": {
+      "name": "标签 38",
+      "color": "#C14DB8",
+      "pinned": false
+    },
+    "39": {
+      "name": "标签 39",
+      "color": "#DE6AF4",
+      "pinned": false
+    },
+    "40": {
+      "name": "标签 40",
+      "color": "#FB8740",
+      "pinned": false
+    },
+    "41": {
+      "name": "标签 41",
+      "color": "#30C17C",
+      "pinned": false
+    },
+    "42": {
+      "name": "标签 42",
+      "color": "#4DDEB8",
+      "pinned": false
+    },
+    "43": {
+      "name": "标签 43",
+      "color": "#6AFBF4",
+      "pinned": false
+    },
+    "44": {
+      "name": "标签 44",
+      "color": "#87307C",
+      "pinned": false
+    },
+    "45": {
+      "name": "标签 45",
+      "color": "#A44DB8",
+      "pinned": false
+    },
+    "46": {
+      "name": "标签 46",
+      "color": "#C16AF4",
+      "pinned": false
+    },
+    "47": {
+      "name": "标签 47",
+      "color": "#DE8740",
+      "pinned": false
+    },
+    "48": {
+      "name": "标签 48",
+      "color": "#FBA47C",
+      "pinned": false
+    },
+    "49": {
+      "name": "标签 49",
+      "color": "#30DEB8",
+      "pinned": false
+    },
+    "50": {
+      "name": "标签 50",
+      "color": "#4DFBF4",
+      "pinned": false
+    },
+    "51": {
+      "name": "标签 51",
+      "color": "#6A307C",
+      "pinned": false
+    },
+    "52": {
+      "name": "标签 52",
+      "color": "#874DB8",
+      "pinned": false
+    },
+    "53": {
+      "name": "标签 53",
+      "color": "#A46AF4",
+      "pinned": false
+    },
+    "54": {
+      "name": "标签 54",
+      "color": "#C18740",
+      "pinned": false
+    },
+    "55": {
+      "name": "标签 55",
+      "color": "#DEA47C",
+      "pinned": false
+    },
+    "56": {
+      "name": "标签 56",
+      "color": "#FBC1B8",
+      "pinned": false
+    },
+    "57": {
+      "name": "标签 57",
+      "color": "#30FBF4",
+      "pinned": false
+    },
+    "58": {
+      "name": "标签 58",
+      "color": "#4D307C",
+      "pinned": false
+    },
+    "59": {
+      "name": "标签 59",
+      "color": "#6A4DB8",
+      "pinned": false
+    },
+    "60": {
+      "name": "标签 60",
+      "color": "#876AF4",
+      "pinned": false
+    },
+    "61": {
+      "name": "标签 61",
+      "color": "#A48740",
+      "pinned": false
+    },
+    "62": {
+      "name": "标签 62",
+      "color": "#C1A47C",
+      "pinned": false
+    },
+    "63": {
+      "name": "标签 63",
+      "color": "#DEC1B8",
+      "pinned": false
+    },
+    "64": {
+      "name": "标签 64",
+      "color": "#FBDEF4",
+      "pinned": false
+    },
+    "65": {
+      "name": "标签 65",
+      "color": "#30307C",
+      "pinned": false
+    },
+    "66": {
+      "name": "标签 66",
+      "color": "#4D4DB8",
+      "pinned": false
+    },
+    "67": {
+      "name": "标签 67",
+      "color": "#6A6AF4",
+      "pinned": false
+    },
+    "68": {
+      "name": "标签 68",
+      "color": "#878740",
+      "pinned": false
+    },
+    "69": {
+      "name": "标签 69",
+      "color": "#A4A47C",
+      "pinned": false
+    },
+    "70": {
+      "name": "标签 70",
+      "color": "#C1C1B8",
+      "pinned": false
+    },
+    "71": {
+      "name": "标签 71",
+      "color": "#DEDEF4",
+      "pinned": false
+    },
+    "72": {
+      "name": "垃圾",
+      "color": "#FBFB40",
+      "pinned": true
+    },
+    "73": {
+      "name": "标签 73",
+      "color": "#304DB8",
+      "pinned": false
+    },
+    "74": {
+      "name": "标签 74",
+      "color": "#4D6AF4",
+      "pinned": false
+    },
+    "75": {
+      "name": "标签 75",
+      "color": "#6A8740",
+      "pinned": false
+    },
+    "76": {
+      "name": "标签 76",
+      "color": "#87A47C",
+      "pinned": false
+    },
+    "77": {
+      "name": "标签 77",
+      "color": "#A4C1B8",
+      "pinned": false
+    },
+    "78": {
+      "name": "标签 78",
+      "color": "#C1DEF4",
+      "pinned": false
+    },
+    "79": {
+      "name": "标签 79",
+      "color": "#DEFB40",
+      "pinned": false
+    },
+    "80": {
+      "name": "标签 80",
+      "color": "#FB30B8",
+      "pinned": false
+    },
+    "81": {
+      "name": "标签 81",
+      "color": "#306AF4",
+      "pinned": false
+    },
+    "82": {
+      "name": "标签 82",
+      "color": "#4D8740",
+      "pinned": false
+    },
+    "83": {
+      "name": "标签 83",
+      "color": "#6AA47C",
+      "pinned": false
+    },
+    "84": {
+      "name": "标签 84",
+      "color": "#87C1B8",
+      "pinned": false
+    },
+    "85": {
+      "name": "标签 85",
+      "color": "#A4DEF4",
+      "pinned": false
+    },
+    "86": {
+      "name": "标签 86",
+      "color": "#C1FB40",
+      "pinned": false
+    },
+    "87": {
+      "name": "标签 87",
+      "color": "#DE30B8",
+      "pinned": false
+    },
+    "88": {
+      "name": "标签 88",
+      "color": "#FB4DF4",
+      "pinned": false
+    },
+    "89": {
+      "name": "标签 89",
+      "color": "#308740",
+      "pinned": false
+    },
+    "90": {
+      "name": "标签 90",
+      "color": "#4DA47C",
+      "pinned": false
+    },
+    "91": {
+      "name": "标签 91",
+      "color": "#6AC1B8",
+      "pinned": false
+    },
+    "92": {
+      "name": "标签 92",
+      "color": "#87DEF4",
+      "pinned": false
+    },
+    "93": {
+      "name": "标签 93",
+      "color": "#A4FB40",
+      "pinned": false
+    },
+    "94": {
+      "name": "标签 94",
+      "color": "#C130B8",
+      "pinned": false
+    },
+    "95": {
+      "name": "标签 95",
+      "color": "#DE4DF4",
+      "pinned": false
+    },
+    "96": {
+      "name": "标签 96",
+      "color": "#FB6A40",
+      "pinned": false
+    },
+    "97": {
+      "name": "标签 97",
+      "color": "#30A47C",
+      "pinned": false
+    },
+    "98": {
+      "name": "标签 98",
+      "color": "#4DC1B8",
+      "pinned": false
+    },
+    "99": {
+      "name": "标签 99",
+      "color": "#6ADEF4",
+      "pinned": false
+    },
+    "100": {
+      "name": "标签 100",
+      "color": "#87FB40",
+      "pinned": false
+    },
+    "101": {
+      "name": "标签 101",
+      "color": "#A430B8",
+      "pinned": false
+    },
+    "102": {
+      "name": "标签 102",
+      "color": "#C14DF4",
+      "pinned": false
+    },
+    "103": {
+      "name": "标签 103",
+      "color": "#DE6A40",
+      "pinned": false
+    },
+    "104": {
+      "name": "标签 104",
+      "color": "#FB877C",
+      "pinned": false
+    },
+    "105": {
+      "name": "标签 105",
+      "color": "#30C1B8",
+      "pinned": false
+    },
+    "106": {
+      "name": "标签 106",
+      "color": "#4DDEF4",
+      "pinned": false
+    },
+    "107": {
+      "name": "标签 107",
+      "color": "#6AFB40",
+      "pinned": false
+    },
+    "108": {
+      "name": "标签 108",
+      "color": "#8730B8",
+      "pinned": false
+    },
+    "109": {
+      "name": "标签 109",
+      "color": "#A44DF4",
+      "pinned": false
+    },
+    "110": {
+      "name": "标签 110",
+      "color": "#C16A40",
+      "pinned": false
+    },
+    "111": {
+      "name": "标签 111",
+      "color": "#DE877C",
+      "pinned": false
+    },
+    "112": {
+      "name": "标签 112",
+      "color": "#FBA4B8",
+      "pinned": false
+    },
+    "113": {
+      "name": "标签 113",
+      "color": "#30DEF4",
+      "pinned": false
+    },
+    "114": {
+      "name": "标签 114",
+      "color": "#4DFB40",
+      "pinned": false
+    },
+    "115": {
+      "name": "标签 115",
+      "color": "#6A30B8",
+      "pinned": false
+    },
+    "116": {
+      "name": "标签 116",
+      "color": "#874DF4",
+      "pinned": false
+    },
+    "117": {
+      "name": "标签 117",
+      "color": "#A46A40",
+      "pinned": false
+    },
+    "118": {
+      "name": "标签 118",
+      "color": "#C1877C",
+      "pinned": false
+    },
+    "119": {
+      "name": "标签 119",
+      "color": "#DEA4B8",
+      "pinned": false
+    },
+    "120": {
+      "name": "标签 120",
+      "color": "#FBC1F4",
+      "pinned": false
+    },
+    "121": {
+      "name": "标签 121",
+      "color": "#30FB40",
+      "pinned": false
+    },
+    "122": {
+      "name": "标签 122",
+      "color": "#4D30B8",
+      "pinned": false
+    },
+    "123": {
+      "name": "标签 123",
+      "color": "#6A4DF4",
+      "pinned": false
+    },
+    "124": {
+      "name": "标签 124",
+      "color": "#876A40",
+      "pinned": false
+    },
+    "125": {
+      "name": "标签 125",
+      "color": "#A4877C",
+      "pinned": false
+    },
+    "126": {
+      "name": "标签 126",
+      "color": "#C1A4B8",
+      "pinned": false
+    },
+    "127": {
+      "name": "标签 127",
+      "color": "#DEC1F4",
+      "pinned": false
+    },
+    "128": {
+      "name": "标签 128",
+      "color": "#FBDE40",
+      "pinned": false
+    },
+    "129": {
+      "name": "标签 129",
+      "color": "#3030B8",
+      "pinned": false
+    },
+    "130": {
+      "name": "标签 130",
+      "color": "#4D4DF4",
+      "pinned": false
+    },
+    "131": {
+      "name": "标签 131",
+      "color": "#6A6A40",
+      "pinned": false
+    },
+    "132": {
+      "name": "标签 132",
+      "color": "#87877C",
+      "pinned": false
+    },
+    "133": {
+      "name": "标签 133",
+      "color": "#A4A4B8",
+      "pinned": false
+    },
+    "134": {
+      "name": "标签 134",
+      "color": "#C1C1F4",
+      "pinned": false
+    },
+    "135": {
+      "name": "标签 135",
+      "color": "#DEDE40",
+      "pinned": false
+    },
+    "136": {
+      "name": "标签 136",
+      "color": "#FBFB7C",
+      "pinned": false
+    },
+    "137": {
+      "name": "标签 137",
+      "color": "#304DF4",
+      "pinned": false
+    },
+    "138": {
+      "name": "标签 138",
+      "color": "#4D6A40",
+      "pinned": false
+    },
+    "139": {
+      "name": "标签 139",
+      "color": "#6A877C",
+      "pinned": false
+    },
+    "140": {
+      "name": "标签 140",
+      "color": "#87A4B8",
+      "pinned": false
+    },
+    "141": {
+      "name": "标签 141",
+      "color": "#A4C1F4",
+      "pinned": false
+    },
+    "142": {
+      "name": "标签 142",
+      "color": "#C1DE40",
+      "pinned": false
+    },
+    "143": {
+      "name": "标签 143",
+      "color": "#DEFB7C",
+      "pinned": false
+    },
+    "144": {
+      "name": "标签 144",
+      "color": "#FB30F4",
+      "pinned": false
+    },
+    "145": {
+      "name": "标签 145",
+      "color": "#306A40",
+      "pinned": false
+    },
+    "146": {
+      "name": "标签 146",
+      "color": "#4D877C",
+      "pinned": false
+    },
+    "147": {
+      "name": "标签 147",
+      "color": "#6AA4B8",
+      "pinned": false
+    },
+    "148": {
+      "name": "标签 148",
+      "color": "#87C1F4",
+      "pinned": false
+    },
+    "149": {
+      "name": "标签 149",
+      "color": "#A4DE40",
+      "pinned": false
+    },
+    "150": {
+      "name": "标签 150",
+      "color": "#C1FB7C",
+      "pinned": false
+    },
+    "151": {
+      "name": "标签 151",
+      "color": "#DE30F4",
+      "pinned": false
+    },
+    "152": {
+      "name": "标签 152",
+      "color": "#FB4D40",
+      "pinned": false
+    },
+    "153": {
+      "name": "标签 153",
+      "color": "#30877C",
+      "pinned": false
+    },
+    "154": {
+      "name": "标签 154",
+      "color": "#4DA4B8",
+      "pinned": false
+    },
+    "155": {
+      "name": "标签 155",
+      "color": "#6AC1F4",
+      "pinned": false
+    },
+    "156": {
+      "name": "标签 156",
+      "color": "#87DE40",
+      "pinned": false
+    },
+    "157": {
+      "name": "标签 157",
+      "color": "#A4FB7C",
+      "pinned": false
+    },
+    "158": {
+      "name": "标签 158",
+      "color": "#C130F4",
+      "pinned": false
+    },
+    "159": {
+      "name": "标签 159",
+      "color": "#DE4D40",
+      "pinned": false
+    },
+    "160": {
+      "name": "标签 160",
+      "color": "#FB6A7C",
+      "pinned": false
+    },
+    "161": {
+      "name": "标签 161",
+      "color": "#30A4B8",
+      "pinned": false
+    },
+    "162": {
+      "name": "标签 162",
+      "color": "#4DC1F4",
+      "pinned": false
+    },
+    "163": {
+      "name": "标签 163",
+      "color": "#6ADE40",
+      "pinned": false
+    },
+    "164": {
+      "name": "标签 164",
+      "color": "#87FB7C",
+      "pinned": false
+    },
+    "165": {
+      "name": "标签 165",
+      "color": "#A430F4",
+      "pinned": false
+    },
+    "166": {
+      "name": "标签 166",
+      "color": "#C14D40",
+      "pinned": false
+    },
+    "167": {
+      "name": "标签 167",
+      "color": "#DE6A7C",
+      "pinned": false
+    },
+    "168": {
+      "name": "标签 168",
+      "color": "#FB87B8",
+      "pinned": false
+    },
+    "169": {
+      "name": "标签 169",
+      "color": "#30C1F4",
+      "pinned": false
+    },
+    "170": {
+      "name": "标签 170",
+      "color": "#4DDE40",
+      "pinned": false
+    },
+    "171": {
+      "name": "标签 171",
+      "color": "#6AFB7C",
+      "pinned": false
+    },
+    "172": {
+      "name": "标签 172",
+      "color": "#8730F4",
+      "pinned": false
+    },
+    "173": {
+      "name": "标签 173",
+      "color": "#A44D40",
+      "pinned": false
+    },
+    "174": {
+      "name": "标签 174",
+      "color": "#C16A7C",
+      "pinned": false
+    },
+    "175": {
+      "name": "标签 175",
+      "color": "#DE87B8",
+      "pinned": false
+    },
+    "176": {
+      "name": "标签 176",
+      "color": "#FBA4F4",
+      "pinned": false
+    },
+    "177": {
+      "name": "标签 177",
+      "color": "#30DE40",
+      "pinned": false
+    },
+    "178": {
+      "name": "标签 178",
+      "color": "#4DFB7C",
+      "pinned": false
+    },
+    "179": {
+      "name": "标签 179",
+      "color": "#6A30F4",
+      "pinned": false
+    },
+    "180": {
+      "name": "标签 180",
+      "color": "#874D40",
+      "pinned": false
+    },
+    "181": {
+      "name": "标签 181",
+      "color": "#A46A7C",
+      "pinned": false
+    },
+    "182": {
+      "name": "标签 182",
+      "color": "#C187B8",
+      "pinned": false
+    },
+    "183": {
+      "name": "标签 183",
+      "color": "#DEA4F4",
+      "pinned": false
+    },
+    "184": {
+      "name": "标签 184",
+      "color": "#FBC140",
+      "pinned": false
+    },
+    "185": {
+      "name": "标签 185",
+      "color": "#30FB7C",
+      "pinned": false
+    },
+    "186": {
+      "name": "标签 186",
+      "color": "#4D30F4",
+      "pinned": false
+    },
+    "187": {
+      "name": "标签 187",
+      "color": "#6A4D40",
+      "pinned": false
+    },
+    "188": {
+      "name": "标签 188",
+      "color": "#876A7C",
+      "pinned": false
+    },
+    "189": {
+      "name": "标签 189",
+      "color": "#A487B8",
+      "pinned": false
+    },
+    "190": {
+      "name": "标签 190",
+      "color": "#C1A4F4",
+      "pinned": false
+    },
+    "191": {
+      "name": "标签 191",
+      "color": "#DEC140",
+      "pinned": false
+    },
+    "192": {
+      "name": "标签 192",
+      "color": "#FBDE7C",
+      "pinned": false
+    },
+    "193": {
+      "name": "标签 193",
+      "color": "#3030F4",
+      "pinned": false
+    },
+    "194": {
+      "name": "标签 194",
+      "color": "#4D4D40",
+      "pinned": false
+    },
+    "195": {
+      "name": "标签 195",
+      "color": "#6A6A7C",
+      "pinned": false
+    },
+    "196": {
+      "name": "标签 196",
+      "color": "#8787B8",
+      "pinned": false
+    },
+    "197": {
+      "name": "标签 197",
+      "color": "#A4A4F4",
+      "pinned": false
+    },
+    "198": {
+      "name": "标签 198",
+      "color": "#C1C140",
+      "pinned": false
+    },
+    "199": {
+      "name": "标签 199",
+      "color": "#DEDE7C",
+      "pinned": false
+    },
+    "200": {
+      "name": "标签 200",
+      "color": "#FBFBB8",
+      "pinned": false
+    },
+    "201": {
+      "name": "标签 201",
+      "color": "#304D40",
+      "pinned": false
+    },
+    "202": {
+      "name": "标签 202",
+      "color": "#4D6A7C",
+      "pinned": false
+    },
+    "203": {
+      "name": "标签 203",
+      "color": "#6A87B8",
+      "pinned": false
+    },
+    "204": {
+      "name": "标签 204",
+      "color": "#87A4F4",
+      "pinned": false
+    },
+    "205": {
+      "name": "标签 205",
+      "color": "#A4C140",
+      "pinned": false
+    },
+    "206": {
+      "name": "标签 206",
+      "color": "#C1DE7C",
+      "pinned": false
+    },
+    "207": {
+      "name": "标签 207",
+      "color": "#DEFBB8",
+      "pinned": false
+    },
+    "208": {
+      "name": "标签 208",
+      "color": "#FB3040",
+      "pinned": false
+    },
+    "209": {
+      "name": "标签 209",
+      "color": "#306A7C",
+      "pinned": false
+    },
+    "210": {
+      "name": "标签 210",
+      "color": "#4D87B8",
+      "pinned": false
+    },
+    "211": {
+      "name": "标签 211",
+      "color": "#6AA4F4",
+      "pinned": false
+    },
+    "212": {
+      "name": "标签 212",
+      "color": "#87C140",
+      "pinned": false
+    },
+    "213": {
+      "name": "标签 213",
+      "color": "#A4DE7C",
+      "pinned": false
+    },
+    "214": {
+      "name": "标签 214",
+      "color": "#C1FBB8",
+      "pinned": false
+    },
+    "215": {
+      "name": "标签 215",
+      "color": "#DE3040",
+      "pinned": false
+    },
+    "216": {
+      "name": "标签 216",
+      "color": "#FB4D7C",
+      "pinned": false
+    },
+    "217": {
+      "name": "标签 217",
+      "color": "#3087B8",
+      "pinned": false
+    },
+    "218": {
+      "name": "标签 218",
+      "color": "#4DA4F4",
+      "pinned": false
+    },
+    "219": {
+      "name": "标签 219",
+      "color": "#6AC140",
+      "pinned": false
+    },
+    "220": {
+      "name": "标签 220",
+      "color": "#87DE7C",
+      "pinned": false
+    },
+    "221": {
+      "name": "标签 221",
+      "color": "#A4FBB8",
+      "pinned": false
+    },
+    "222": {
+      "name": "标签 222",
+      "color": "#C13040",
+      "pinned": false
+    },
+    "223": {
+      "name": "标签 223",
+      "color": "#DE4D7C",
+      "pinned": false
+    },
+    "224": {
+      "name": "标签 224",
+      "color": "#FB6AB8",
+      "pinned": false
+    },
+    "225": {
+      "name": "标签 225",
+      "color": "#30A4F4",
+      "pinned": false
+    },
+    "226": {
+      "name": "标签 226",
+      "color": "#4DC140",
+      "pinned": false
+    },
+    "227": {
+      "name": "标签 227",
+      "color": "#6ADE7C",
+      "pinned": false
+    },
+    "228": {
+      "name": "标签 228",
+      "color": "#87FBB8",
+      "pinned": false
+    },
+    "229": {
+      "name": "标签 229",
+      "color": "#A43040",
+      "pinned": false
+    },
+    "230": {
+      "name": "标签 230",
+      "color": "#C14D7C",
+      "pinned": false
+    },
+    "231": {
+      "name": "标签 231",
+      "color": "#DE6AB8",
+      "pinned": false
+    },
+    "232": {
+      "name": "标签 232",
+      "color": "#FB87F4",
+      "pinned": false
+    },
+    "233": {
+      "name": "标签 233",
+      "color": "#30C140",
+      "pinned": false
+    },
+    "234": {
+      "name": "标签 234",
+      "color": "#4DDE7C",
+      "pinned": false
+    },
+    "235": {
+      "name": "标签 235",
+      "color": "#6AFBB8",
+      "pinned": false
+    },
+    "236": {
+      "name": "标签 236",
+      "color": "#873040",
+      "pinned": false
+    },
+    "237": {
+      "name": "标签 237",
+      "color": "#A44D7C",
+      "pinned": false
+    },
+    "238": {
+      "name": "标签 238",
+      "color": "#C16AB8",
+      "pinned": false
+    },
+    "239": {
+      "name": "标签 239",
+      "color": "#DE87F4",
+      "pinned": false
+    },
+    "240": {
+      "name": "标签 240",
+      "color": "#FBA440",
+      "pinned": false
+    },
+    "241": {
+      "name": "标签 241",
+      "color": "#30DE7C",
+      "pinned": false
+    },
+    "242": {
+      "name": "标签 242",
+      "color": "#4DFBB8",
+      "pinned": false
+    },
+    "243": {
+      "name": "标签 243",
+      "color": "#6A3040",
+      "pinned": false
+    },
+    "244": {
+      "name": "标签 244",
+      "color": "#874D7C",
+      "pinned": false
+    },
+    "245": {
+      "name": "标签 245",
+      "color": "#A46AB8",
+      "pinned": false
+    },
+    "246": {
+      "name": "标签 246",
+      "color": "#C187F4",
+      "pinned": false
+    },
+    "247": {
+      "name": "标签 247",
+      "color": "#DEA440",
+      "pinned": false
+    },
+    "248": {
+      "name": "标签 248",
+      "color": "#FBC17C",
+      "pinned": false
+    },
+    "249": {
+      "name": "标签 249",
+      "color": "#30FBB8",
+      "pinned": false
+    },
+    "250": {
+      "name": "标签 250",
+      "color": "#4D3040",
+      "pinned": false
+    },
+    "251": {
+      "name": "标签 251",
+      "color": "#6A4D7C",
+      "pinned": false
+    },
+    "252": {
+      "name": "标签 252",
+      "color": "#876AB8",
+      "pinned": false
+    },
+    "253": {
+      "name": "标签 253",
+      "color": "#A487F4",
+      "pinned": false
+    },
+    "254": {
+      "name": "标签 254",
+      "color": "#C1A440",
+      "pinned": false
+    },
+    "255": {
+      "name": "标签 255",
+      "color": "#DEC17C",
+      "pinned": false
+    }
+  }
+}

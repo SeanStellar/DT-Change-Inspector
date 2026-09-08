@@ -1,0 +1,90 @@
+{
+  "name": "dual-temporal-change-inspector",
+  "version": "3.3.4",
+  "description": "双时相影像查看、变化检查与多颜色 Mask 标注工具",
+  "main": "electron/main.js",
+  "type": "commonjs",
+  "author": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test electron/tests/*.test.js",
+    "test:smoke": "electron . --self-test",
+    "build": "electron-builder --win nsis --x64",
+    "build:dir": "electron-builder --win dir --x64"
+  },
+  "dependencies": {
+    "onnxruntime-node": "1.29.0",
+    "sharp": "0.35.3"
+  },
+  "devDependencies": {
+    "electron": "43.2.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "com.dualtemporal.changeinspector",
+    "productName": "双时相变化检查工具",
+    "afterPack": "electron/after-pack.js",
+    "artifactName": "双时相变化检查工具-安装程序-${version}.${ext}",
+    "directories": {
+      "output": "release",
+      "buildResources": "assets"
+    },
+    "files": [
+      "electron/**/*",
+      "!electron/models/**/*",
+      "package.json"
+    ],
+    "extraFiles": [
+      {
+        "from": "mask_labels.json",
+        "to": "mask_labels.json"
+      },
+      {
+        "from": "assets/icon.ico",
+        "to": "assets/icon.ico"
+      }
+    ],
+    "extraResources": [
+      {
+        "from": "electron/models/",
+        "to": "models",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "asarUnpack": [
+      "node_modules/sharp/**/*",
+      "node_modules/@img/**/*",
+      "node_modules/onnxruntime-node/**/*",
+      "node_modules/onnxruntime-common/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico",
+      "executableName": "双时相变化检查工具"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": false,
+      "createStartMenuShortcut": true,
+      "shortcutName": "双时相变化检查工具",
+      "include": "assets/installer.nsh",
+      "installerLanguages": [
+        "zh_CN"
+      ],
+      "language": "2052",
+      "deleteAppDataOnUninstall": false
+    }
+  }
+}

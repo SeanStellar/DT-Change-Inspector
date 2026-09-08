@@ -1,0 +1,8 @@
+packages:
+  - "."
+
+allowBuilds:
+  electron: true
+  sharp: true
+  electron-winstaller: false
+  onnxruntime-node: true

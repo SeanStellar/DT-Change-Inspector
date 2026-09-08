@@ -1,0 +1,30 @@
+# Node / Electron
+node_modules/
+release/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Test / build artifacts
+.installer-*
+.installed-*/
+.packaged-test-profile*
+.test-profile-*
+.visual-test-profile/
+.benchmark-*
+.installer-diagnostic/
+.installed-selftest-*
+
+# Windows
+Thumbs.db
+*.lnk
+
+# OS
+.DS_Store
+
+publish/
